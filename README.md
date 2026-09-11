@@ -29,7 +29,8 @@ CURRENT   : turning ideas into hardware
 STATUS    : debugging
 MOOD      : depends on the waveform
 
-> ls ~/projects
+
+## `> ls ~/projects`
 01 — AES-128 FPGA Accelerator
 TYPE      : Hardware Cryptography
 HDL       : SystemVerilog
