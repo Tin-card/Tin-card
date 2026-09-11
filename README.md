@@ -1,6 +1,6 @@
 <div align="center">
 
-# TIN-CARD (Nitish Dhiman)
+# TIN-CARD 
 
 ### DIGITAL HARDWARE · FPGA · COMMUNICATION
 
@@ -15,3 +15,14 @@
 </div>
 
 ---
+
+## `> whoami`
+
+```text
+NAME      : Nitish Dhiman
+DOMAIN    : Electronics & Communication
+FOCUS     : RTL · FPGA · Digital Design
+CURRENT   : building things that occasionally work
+
+STATUS    : debugging
+MOOD      : depends on the waveform
