@@ -30,52 +30,109 @@ STATUS    : debugging
 MOOD      : depends on the waveform
 ```
 
+---
+
 ## `> ls ~/projects`
 
-01 — AES-128 FPGA Accelerator
-```text
-TYPE      : Hardware Cryptography
-HDL       : SystemVerilog
-TOOLCHAIN : Verilator · Yosys
-STATUS    : ███████████████░░░  ACTIVE
+<table>
+<tr>
 
-Building an AES-128 encryption core in RTL, with simulation,
-verification and synthesis as part of the workflow.
+<td width="50%" valign="top">
 
-→ view repository
-```
+<h3>🔐 AES-128 FPGA Accelerator</h3>
 
-02 — QR-TXRX
-```text
-TYPE      : Optical Data Communication
-STACK     : Python · C++
-STATUS    : ████████████░░░░░░  BUILDING
+<p>
+RTL-based AES-128 encryption core exploring
+hardware cryptography and FPGA acceleration.
+</p>
 
-A visual data transmission system exploring how much information
-can be shoved through a camera before reality starts complaining.
+<p>
+<code>SystemVerilog</code>
+<code>Verilator</code>
+<code>Yosys</code>
+</p>
 
-→ view repository
-```
+<p>
+<b>STATE:</b> 🟢 ACTIVE DEVELOPMENT
+</p>
 
-## `> env | grep TOOLCHAIN`
-```text
-HDL          = Verilog · SystemVerilog
-SIMULATION   = Verilator
-SYNTHESIS    = Yosys
-EDA          = Tanner EDA · LTspice
-PROGRAMMING  = C · C++ · Python · MATLAB
-VERSIONING   = Git · GitHub
-[ HARDWARE ]
+<a href="../FPGA-Crypt-fpga-crypto-accelerator-">
+→ View repository
+</a>
 
-RTL ───────── FPGA ───────── DIGITAL DESIGN
-                         │
-                         └── VLSI
+</td>
 
+<td width="50%" valign="top">
 
-[ COMMUNICATION ]
+<h3>📡 QR-TXRX</h3>
 
-DIGITAL COMMUNICATION ─── OPTICAL ─── TELECOM
-```
+<p>
+Experimental optical data link using
+visual frames to transmit encoded data.
+</p>
+
+<p>
+<code>Python</code>
+<code>C++</code>
+<code>Optical Communication</code>
+</p>
+
+<p>
+<b>STATE:</b> 🟡 BUILDING
+</p>
+
+<a href="../QR-TXRX">
+→ View repository
+</a>
+
+</td>
+
+</tr>
+</table>
+
+## `> cat /skills/tech_stack.json`
+
+### ⚡ HARDWARE & HDL
+
+<p>
+<img src="https://img.shields.io/badge/Verilog-1f1f1f?style=for-the-badge&logo=verilog&logoColor=white">
+<img src="https://img.shields.io/badge/SystemVerilog-1f1f1f?style=for-the-badge&logoColor=white">
+<img src="https://img.shields.io/badge/FPGA-1f1f1f?style=for-the-badge&logoColor=white">
+<img src="https://img.shields.io/badge/RTL_Design-1f1f1f?style=for-the-badge&logoColor=white">
+</p>
+
+### 🛠️ EDA & VERIFICATION
+
+<p>
+<img src="https://img.shields.io/badge/Verilator-1f1f1f?style=for-the-badge&logoColor=white">
+<img src="https://img.shields.io/badge/Yosys-1f1f1f?style=for-the-badge&logoColor=white">
+<img src="https://img.shields.io/badge/Tanner_EDA-1f1f1f?style=for-the-badge&logoColor=white">
+<img src="https://img.shields.io/badge/LTspice-1f1f1f?style=for-the-badge&logoColor=white">
+</p>
+
+### 💻 SOFTWARE
+
+<p>
+<img src="https://img.shields.io/badge/C-1f1f1f?style=for-the-badge&logo=c&logoColor=white">
+<img src="https://img.shields.io/badge/C%2B%2B-1f1f1f?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+<img src="https://img.shields.io/badge/Python-1f1f1f?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/MATLAB-1f1f1f?style=for-the-badge&logoColor=white">
+</p>
+
+### 📡 COMMUNICATION
+
+<p>
+<code>Digital Communication</code>
+<code>Optical Communication</code>
+<code>FTTH / GPON</code>
+<code>Telecom Networks</code>
+</p>
+
+### 🔧 WORKFLOW
+
+<p>
+<img src="https://img.shields.io/badge/Git-1f1f1f?style=for-the-badge&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-1f1f1f?style=for-the-badge&logo=github&logoColor=white">
 
 ## `> ./status`
 
@@ -111,15 +168,47 @@ NOTE:
 "It worked once" is not considered verification.
 ```
 
+---
+
 ## `> tail -f ~/currently_building`
-```text
-[ACTIVE]          AES-128 RTL refinement
-[ACTIVE]          FPGA implementation experiments
-[ACTIVE]          QR-TXRX reliability improvements
-[LEARNING]        Better verification
-[INVESTIGATING]   Timing
-[IGNORING]        The concept of "just one more bug"
-```
+
+<table>
+<tr>
+<th>STATE</th>
+<th>PROCESS</th>
+</tr>
+
+<tr>
+<td>🟢 ACTIVE</td>
+<td>AES-128 RTL refinement</td>
+</tr>
+
+<tr>
+<td>🟢 ACTIVE</td>
+<td>FPGA implementation experiments</td>
+</tr>
+
+<tr>
+<td>🟢 ACTIVE</td>
+<td>QR-TXRX reliability improvements</td>
+</tr>
+
+<tr>
+<td>🟡 LEARNING</td>
+<td>Better verification</td>
+</tr>
+
+<tr>
+<td>🔵 INVESTIGATING</td>
+<td>Timing</td>
+</tr>
+
+<tr>
+<td>⚫ IGNORING</td>
+<td>The concept of "just one more bug"</td>
+</tr>
+
+</table>
 
 ## `> git_activity`
 
@@ -132,23 +221,7 @@ CONTRIBUTION MATRIX
 <img src="https://raw.githubusercontent.com/Tin-card/Tin-card/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
 
 </picture> </div>
-## `> git log --oneline`
 
-```text
-build: new idea
-
-test: almost works
-
-fix: apparently not
-
-debug: found something
-
-fix: broke something else
-
-rebuild: acceptable
-
-commit: ship it
-```
 
 ## `> ./connect`
 
