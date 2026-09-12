@@ -56,7 +56,7 @@ hardware cryptography and FPGA acceleration.
 <b>STATE:</b> 🟢 ACTIVE DEVELOPMENT
 </p>
 
-<a href="../FPGA-Crypt-fpga-crypto-accelerator-">
+<a href="https://github.com/Tin-card/FPGA-Crypt-fpga-crypto-accelerator-">
 → View repository
 </a>
 
@@ -81,7 +81,7 @@ visual frames to transmit encoded data.
 <b>STATE:</b> 🟡 BUILDING
 </p>
 
-<a href="../QR-TXRX">
+<a href="https://github.com/Tin-card/QR-TXRX">
 → View repository
 </a>
 
